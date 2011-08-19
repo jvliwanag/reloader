@@ -1,0 +1,7 @@
+{application, reloader,
+ [{description, "Module auto-reloader"},
+  {vsn, "0.1.0"}, %% Based on mochiweb 1.5.1
+  {modules, []},
+  {registered, []},
+  {env, []},
+  {applications, [kernel, stdlib]}]}.
